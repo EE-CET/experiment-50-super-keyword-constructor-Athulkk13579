@@ -1,3 +1,4 @@
+
 class Person {
     Person() {
         System.out.println("Person class");
@@ -11,8 +12,8 @@ class Student extends Person {
     }
 }
 
-public class Main {
+public class SuperConstructorDemo {
     public static void main(String[] args) {
-        new Student();
+        Student s = new Student();
     }
 }
